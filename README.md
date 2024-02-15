@@ -5,15 +5,6 @@ The idea of this project is to generate **random travel destination** from the l
 ## The Travel Generator Object
 
     const  travelGenerator  =  {
-
-
-	    destination:  ['Thaildand','Duabi',  'Hungary','Monaco','Miami','Norway'],
-
-	    temp:  ['Hot','Very hot',  'Cold','Cool','Snowy'],
-
-	    price:  ['Cheap','expensive','average']
-
-
     
 	    destination:  ['Thaildand','Duabi',  'Hungary','Monaco','Miami','Norway'],
     
@@ -21,7 +12,6 @@ The idea of this project is to generate **random travel destination** from the l
     
 	    price:  ['Cheap','expensive','average']
     
-
     }
 
 ## The process
@@ -39,22 +29,12 @@ The steps that it takes to generate a random destination are as follows:
 >Visual Studio Code
 >JavaScript 
 
-
-
-
 ## Example of final outputs. 
 
     Your destination is: Monaco
     The temperature will be: Cool
     The price will be: expensive
-
-
-    Your destination is: Miami
-    The temperature will be: Snowy
-    The price will be: Cheap
-
  
     Your destination is: Miami
     The temperature will be: Snowy
     The price will be: Cheap
-
