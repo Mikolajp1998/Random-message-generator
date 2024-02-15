@@ -1,6 +1,36 @@
-const message1 =['hello','Good day', 'Hey','Greetings','What a lovely day today!'];
-const message2 =['What will the random message be today?','lets see what message we get today!',"let's brigthen up our day with a new message"];
-const message3 =['Today will be a good day','You will acheive your goals today','today may be tough, but you will get through it!'];
-const message4 =['hope this helped to cheer you up!', 'You will find the motivation needed to get through today!','There\'s always tomorrow!'];
+//random fact generato
+function generateRandomNumber(num) {
+    return Math.floor(Math.random() * num)
+}
 
-let random_message = [];
+const travelGenerator = {
+    destination: ['Thaildand','Duabi', 'Hungary','Monaco','Miami','Norway'],
+    temp: ['Hot','Very hot', 'Cold','Cool','Snowy'],
+    price: ['Cheap','expensive','average']   
+};
+
+const destination = [];
+
+for (let x in travelGenerator){
+    let options = generateRandomNumber(travelGenerator[x].length);
+
+    switch(x) {
+        case 'destination':
+            destination.push(`Your destination is: ${travelGenerator[x][options]}`);
+            break;
+        case 'temp':
+            destination.push(`The temperature will be: ${travelGenerator[x][options]}`);
+            break;
+        case 'price':
+            destination.push(`The price will be: ${travelGenerator[x][options]}`);
+            break;
+        default:
+            destination.push('There is not enough info.');
+    }
+}
+function format (dest){
+    const formatted = destination.join('\n')
+    console.log(formatted)
+};
+
+format(destination);
