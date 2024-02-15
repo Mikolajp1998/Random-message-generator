@@ -7,7 +7,7 @@ const travelGenerator = {
     destination: ['Thaildand','Duabi', 'Hungary','Monaco','Miami','Norway'],
     temp: ['Hot','Very hot', 'Cold','Cool','Snowy'],
     price: ['Cheap','expensive','average']   
-}
+};
 
 const destination = [];
 
