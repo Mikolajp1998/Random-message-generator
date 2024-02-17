@@ -4,17 +4,17 @@ The idea of these projects is to generate **randomly** from the listed array, gi
 ## Table of contents
 - [The Travel Generator](#the-travel-generator-project)
 
--[The process](#the-process)
+	-[The process](#the-process)
 
--[Example Outputs](#example-final-outputs)
+	-[Example Outputs](#example-final-outputs)
 
 - [Workout Generator](#the-workout-generator)
 
--[What is does?](#what-it-does)
+	-[What is does?](#what-it-does)
   
--[Main Functions](#main-functions)
+	-[Main Functions](#main-functions)
 
--[Example Outputs](#examples-of-random-workout-generations)
+	-[Example Outputs](#examples-of-random-workout-generations)
 
 
 ## Projects
